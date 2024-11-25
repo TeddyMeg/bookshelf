@@ -1,6 +1,6 @@
-import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk} from '@reduxjs/toolkit';
 import axios from 'axios';
-import { AuthState, LoginCredentials, RegisterData, UpdateProfileData, User } from '../types/auth.ts';
+import { AuthState, LoginCredentials, RegisterData, UpdateProfileData} from '../types/auth.ts';
 
 const API_URL = 'http://localhost:5000/api/users';
 
