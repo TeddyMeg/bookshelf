@@ -66,13 +66,9 @@ cd bookshelf
    ```bash
    npm install
    ```
-3. Create a `.env` file based on the `.env.example` and configure your environment variables:
+3. Start the backend server:
    ```bash
-   cp .env.example .env
-   ```
-4. Start the backend server:
-   ```bash
-   npm start
+   npm start or npm run server
    ```
 
 ### Frontend Setup
@@ -84,20 +80,16 @@ cd bookshelf
    ```bash
    npm install
    ```
-3. Create a `.env` file based on the `.env.example` and configure your environment variables:
+3. Start the frontend development server:
    ```bash
-   cp .env.example .env
-   ```
-4. Start the frontend development server:
-   ```bash
-   npm start
+   npm start or npm run dev
    ```
 
 ## Running the Application
 ### Backend
 To run the backend server, navigate to the `backend` directory and use the following command:
 ```bash
-npm start
+npm start or npm run dev
 ```
 
 ### Frontend
