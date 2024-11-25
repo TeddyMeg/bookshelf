@@ -94,7 +94,7 @@ function App() {
             <Route path="/add" element={<BookForm />} />
             <Route path="/edit/:id" element={<BookForm isEditing />} />
             <Route path="/login" element={<AuthForm isLogin />} />
-            <Route path="/register" element={<AuthForm />} />
+            <Route path="/register" element={<AuthForm isLogin={false} />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </main>
