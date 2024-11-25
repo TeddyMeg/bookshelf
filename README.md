@@ -1,7 +1,3 @@
-Sure! Here’s a detailed README for your GitHub repository:
-
----
-
 # Bookshelf
 
 A simple book shelf management app.
