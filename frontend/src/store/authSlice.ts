@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk} from '@reduxjs/toolkit';
 import axios from 'axios';
 import { AuthState, LoginCredentials, RegisterData, UpdateProfileData} from '../types/auth.ts';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://bookshelf-server-npl7.onrender.com/api/users';
 
 // Get user token from local storage
 const token = localStorage.getItem('token');

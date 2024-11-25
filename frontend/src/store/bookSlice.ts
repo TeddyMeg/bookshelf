@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { Book, BookState } from '../types/book.ts';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://bookshelf-server-npl7.onrender.com/api';
 
 export const fetchBooks = createAsyncThunk('books/fetchBooks', async () => {
   const response = await axios.get(`${API_URL}/books`);
